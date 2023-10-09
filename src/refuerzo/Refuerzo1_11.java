@@ -32,6 +32,8 @@ public class Refuerzo1_11 {
 		
 			}
 				System.out.println((cont-1));
+				
+				entrada.close();
 	}
 
 }
