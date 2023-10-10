@@ -14,7 +14,7 @@ public class Refuerzo1_5 {
 
 	public static void main(String[] args) {
 		Scanner entrada=new Scanner(System.in);
-		//for(int i=0;i<3;i++) {
+		//for(int i=0;i<10;i++) {
 		System.out.println("Dame 1 numero enteros");
 		int n=entrada.nextInt();
 		System.out.println("Dame 1 numero enteros");
@@ -27,39 +27,7 @@ public class Refuerzo1_5 {
 		}else {
 			System.out.println("Ccumplen la distancia de seguridad");
 		}
-		
-		
-		
-//		if(n<n1&&n1<n2) {//menor es n //n2 mayor 123
-//			if(n+10>=n2) { 
-//				System.out.println("No cumple la distancia de seguridad");
-//			}
-//		}else if(n<n1&&n1>n2&&n<n2) {//132 mayor es n3
-//				if(n+9>=n2) {
-//				System.out.println("No cumple la distancia de seguridad");
-//				}
-//		}else if(n>n1&&n>n2&&n>n2){
-//				if(n2+10>=n2) {
-//				System.out.println("No cumple la distancia de seguridad");
-//				}
-//		}else if(n>n1&&n1<n2&&n>n2) {
-//			if(n2+10>=n1) {
-//				System.out.println("No cumple la distancia de seguridad");
-//				}
-//		}else if(n<n1&&n1>n2&&n>n2) {//213
-//			if(n2+10>=n1) {
-//				System.out.println("No cumple la distancia de seguridad");
-//			}
-//		}else if(n<n1&&n1>n2&&n<n2) {
-//			if(n+10>=n1) {
-//				System.out.println("No cumple la distancia de seguridad");	
-//			}else {
-//			System.out.println("Cumple la distancia de seguridad");
-//			
-//			}
-//		}
-//		//}
-	}
+	//}
+	entrada.close();	
+	}		
 }
-//	  
-//		
