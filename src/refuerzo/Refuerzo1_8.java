@@ -23,7 +23,7 @@ public class Refuerzo1_8 {
 	public static void main(String[] args) {
 			Scanner entrada= new Scanner(System.in);
 			int aux=0,n=0;
-			//////a)/////////////////////////////////////////////////
+			//////B)Sin contar el ultimo numero negativo introducido/////////////////////////////////////////////////
 			do {
 			System.out.println("Introdue un numero");
 			n = entrada.nextInt();
@@ -32,7 +32,7 @@ public class Refuerzo1_8 {
 			System.out.println("La suma de los numeros es :"+aux);
 			
 			System.out.println("Adios");
-			////////////////b)Contando el numero negativo introducido////////////////////////////////////////   */
+			////////////////A)Contando el numero negativo introducido////////////////////////////////////////   */
 			
 			/*while(n>=0) {
 			System.out.println("Introdue un numero");
@@ -44,8 +44,6 @@ public class Refuerzo1_8 {
 			
 			System.out.println("Adios");*/
 			
-			
-			
-			
+		entrada.close();		
 	}
 }
