@@ -29,13 +29,13 @@ public class Refuerzo1_7 {
 				System.out.println(n);
 				
 				}
-				System.out.println("BOOM");
+				System.out.println("BOOOOOM");
 				
 			}if(n<0) {
 				for(;n<0;n++) {
 					System.out.println(n);
 				}
-				System.out.println("BOOM");
+				System.out.println("BOOOOOM");
 			}
 	}
 	
