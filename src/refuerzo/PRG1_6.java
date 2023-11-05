@@ -19,19 +19,23 @@ import java.util.*;
 public class PRG1_6 {
 	public static void main(String[] args) {
 		Scanner entrada=new Scanner(System.in);
-		System.out.println("Pasajeros actuales");
-			int n_tripulantes=entrada.nextInt();
-		System.out.println("Segun lista de pasajeros");
-			int n_tripulantes_teoricos=entrada.nextInt();
-			
-			int sobrante=(n_tripulantes-n_tripulantes_teoricos);
-			
-			for(int i=0 ; i<sobrante;i++) {
-				System.out.println("¡Alerta Intrusos!");
-			}
 		
+		System.out.println("Pasajeros actuales");
+		int n_tripulantes=entrada.nextInt();
+		System.out.println("Segun lista de pasajeros");
+		int n_tripulantes_teoricos=entrada.nextInt();
+			
+		int sobrante=(n_tripulantes-n_tripulantes_teoricos);
+		
+			if(n_tripulantes>n_tripulantes_teoricos) {
+				for(int i=0 ; i<sobrante;i++) {
+					System.out.println("¡Alerta Intrusos!");
+				}
+			}else {	
+			System.out.println("Ok, todo correcto");
+			}
 		
 	entrada.close();
 
 }
-}
+}}
